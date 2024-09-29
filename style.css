@@ -1,9 +1,6 @@
 body {
-    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -20,36 +17,88 @@ header h1 {
     padding: 10px;
 }
 
-main {
-    margin: 40px;
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    justify-content: center;
+    background-color: #dedede;
 }
 
-.profile-section {
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-links li a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+main {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0;
-}
-
-.image-section {
-    margin: 40px 0;
+    margin: 40px;
+    flex-direction: column;
 }
 
 .info {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+}
+
+.info-details {
+    flex: 1;
+}
+
+.info-details h1 {
+    font-size: 3.375rem;
+    font-weight: 800;
+}
+
+.info-details ul {
+    list-style: none;
+    line-height: 1.8;
+}
+
+.info-details li {
+    display: flex;
+    padding-bottom: 1rem;
     flex-direction: column;
-    align-items: center;
-    margin: 20px;
+    align-items: flex-start;
+    gap: 0.25rem;
+    align-self: stretch;
 }
 
-.info ul {
-    list-style-type: none;
-    padding: 0;
+.info-details ul li strong {
+    font-size: 1.1em;
+    color: #555;
 }
 
-.info li {
-    margin: 10px 0;
-    font-size: 1.2em;
+.info-picture img {
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-links {
@@ -59,30 +108,14 @@ main {
     text-align: left;
 }
 
-.more {
-    background-color: #409e91;
-    color: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: center;
-}
-
-.more a {
-    color: #ffffff;
-    margin: 10px 0;
-    text-decoration: none;
-    display: block;
-}
-
 .video-container {
-    margin-bottom: 20px;
-}
-
-.more a:hover {
-    text-decoration: underline;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .single-image {
+    margin: 20px;
     width: 300px;
     height: 295px;
     object-fit: cover;
@@ -90,23 +123,34 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.next-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #503459;
-    color: #ffffff;
-    text-decoration: none;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease;
-    position: relative;
-    bottom: 20px;
-    right: 20px;
+footer {
+    width: 100%;
+    background-color: #dedede;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.next-link:hover {
-    background-color: #6a4f78;
+footer h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+
+footer a:visited {
+    color: #000000;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .year-section {
@@ -120,7 +164,7 @@ main {
 }
 
 .year-section h2 {
-    color: #503459;
+    color: #000000;
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -129,4 +173,33 @@ main {
     font-size: 1.2em;
     line-height: 1.6;
     color: #555;
+}
+
+.future-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.future-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.future-content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #d32f2f !important;
 }
