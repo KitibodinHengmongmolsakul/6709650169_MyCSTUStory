@@ -1,0 +1,240 @@
+body {
+    background-color: #ad8b6d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#kitibodin {
+    width: 400px;
+    height: auto;
+    border: 5px double white;
+    box-shadow: 10px 10px #302929;
+    float: left;
+    overflow: auto;
+}
+
+.CONTACT {
+    font-size: 20px;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.cont {
+    margin: -30px;
+    padding-bottom: 40px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 25px;
+}
+
+.fieldset {
+    border: 5px solid rgb(179, 35, 25);
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-left: 2em;
+    padding-right: 1.5em;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px;
+    float: right;
+    overflow: visible;
+}
+
+h1 {
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 80px;
+}
+
+.MY {
+    font-size: 60px;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.more {
+    background-color: #409e91;
+    color: #ffffff;
+    padding: 20px 0; 
+    text-align: center;
+    margin: 0; 
+    width: 1500px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+}
+.more a {
+    color: #d0d5cb;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.more a:hover {
+    text-decoration: underline;
+}
+
+
+article {
+    float: right;
+    margin-top: -45px;
+    width: auto;
+    overflow: auto;
+}
+
+.back {
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding-left: 200px;
+    margin-top: -10px;
+}
+
+footer {
+    padding: 10px;
+    top: 200px;
+    position: absolute;
+    left: 40%;
+    top: 130%;
+}
+
+.fiel {
+    border: 5px solid rgb(179, 35, 25);
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0.625em;
+    padding-left: 2em;
+    padding-right: 0.75em;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px;
+    margin-top: 350px;
+}
+
+video {
+    padding-left: 19%;
+}
+
+.N1 {
+    margin-top: 75px;
+    float: right;
+    overflow: auto;
+    font-family: "New Amsterdam", sans-serif;
+    text-align: right;
+    font-size: 50px;
+    color: rgb(179, 35, 25);
+    position: absolute;
+    right: 65px;
+    margin-bottom: 10px;
+   
+}
+.N1:hover:hover {text-decoration-line: underline;}
+
+.year {
+    background-color: burlywood;
+    padding: 2px;
+    float: left;
+    width: 20% ;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+    position: fixed;
+}
+
+ul ol a{margin: 0px;
+padding: 0px;}
+
+.year ul ol a{
+    margin: 60px;
+    display: block;
+font-family:  "New Amsterdam", sans-serif ;
+margin-left: -10px;
+color: black;
+text-decoration: none;}
+
+.year ul ol a:hover{color:  rgb(179, 35, 25);}
+
+
+main {
+    padding: 20px;
+    width: 73%;
+    float: right;
+}
+
+/* Info Section Styles */
+.FIRST-YEAR {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: "New Amsterdam", sans-serif ;
+    text-align: center;
+    font-size: 35px;
+}
+/* Recipe Section Styles */
+.recipe-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: "New Amsterdam", sans-serif ;
+}
+
+.B1 {margin-top: 75px;
+    float: left;
+    overflow: auto;
+    font-family: "New Amsterdam", sans-serif;
+    text-align: left;
+    font-size: 50px;
+    color: rgb(179, 35, 25);
+    margin-bottom: 10px;
+position: absolute;
+left: 25px }
+
+.B1:hover {text-decoration-line: underline;}
+
+#search {width: 80%;}
+
+#richman {
+    position: relative;
+    top: 20px;
+    width: 350px;
+    height: auto; 
+    animation-name: richman;
+    animation-duration: 4s;
+    animation-fill-mode: forwards; 
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes richman {
+    0%   { width: 350px; height: auto; }
+    25%  { width: 400px; height: auto; }
+    50%  { width: 420px; height: auto; }
+    75%  { width: 440px; height: auto; }
+    100% { width: 460px; height: auto; }
+  }
+  
+#money {width: auto;
+    height:400px ;
+position: absolute;
+bottom: 45%;
+left: 75%;
+-webkit-box-reflect: left 700px;
+}
+
+.rich {
+    background-color: #fff;
+    border-radius: 8px;
+   box-sizing: 20px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    padding: 20px;
+    font-family: "New Amsterdam", sans-serif ;
+    width: 30%;
+}
