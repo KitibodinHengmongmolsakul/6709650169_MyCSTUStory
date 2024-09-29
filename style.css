@@ -4,19 +4,6 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #503459;
-    color: #d1c9df;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    border: 2px dashed rgb(241, 54, 37);
-    padding: 10px;
-}
-
 .navbar {
     position: sticky;
     top: 0;
