@@ -190,3 +190,29 @@ footer a:hover {
     font-weight: bold;
     color: #d32f2f !important;
 }
+
+.year-text {
+    margin-left: auto;
+    font-size: 1.2em;
+    color: #555;
+    position: relative;
+    font-style: italic;
+}
+
+.year-text::before,
+.year-text::after {
+    font-size: inherit;
+    font-style: normal;
+}
+
+.year-text::before {
+    content: '“';
+    position: absolute;
+    left: -10px;
+}
+
+.year-text::after {
+    content: '”';
+    position: absolute;
+    right: -10px;
+}
