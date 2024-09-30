@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CSTU Passport</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
-    
-    
 </head>
+
 <body>
-    <header><h1>My CSTU Passport</h1></header>
-        
-    <img src="resources/majormirror.jpg" width="300" height="500" alt="majormirror"/>
-    
-    <div class="info">
-        <h2>นายกิติบดิณ เฮงมงคลสกุล (เมเจอร์)</h2>
-        <hr>
-        <ul>              
-            <li>Student ID: 6709650169</li>
-            <li>Born: 23 July 2004 &nbsp; Age: 20 Years</li>
-            <li>Presently: studying in Computer Science at Thammasat University</li>
-            <li>Hobby: Working out, cooking</li>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myjourney.html">My Journey</a></li>
+            <li><a href="myfuture.html">My Future</a></li>
         </ul>
-    </div>
-    
-    <br><br><br>
-    <h2>Me as a child🤩</h2>
-    <img src="resources/babymajor1.jpg" width="300" height="295" alt="babymajor1"/>
-    <img src="resources/babymajor2.jpg" width="300" height="295" alt="babymajor2"/>
-    <h2>cooking🤤</h2>
-    <img src="resources/majorcooking.jpg" width="300" height="295" alt="majorcooking"/>
-    
-    <div class="more">
-        <div class="video-container">
-            <iframe src="resources/major-hii.mp4" controls width="500" height="600"></iframe>
-        </div>
+    </nav>
+
+    <main>
+        <section class="info">
+            <div class="info-details">
+                <h1>Kitibordin Hengmonkolsakul (Major)</h1>
+                <ul>
+                    <li><strong>Student ID</strong>6709650169</li>
+                    <li><strong>Born</strong>23 July 2004</li>
+                    <li><strong>Age</strong>20</li>
+                    <li><strong>Presently</strong>Studying in Computer Science at Thammasat University
+                    </li>
+                    <li><strong>Hobby</strong>Working out, cooking</li>
+                </ul>
+            </div>
+            <div class="info-picture">
+                <img src="resources/majormirror.jpg" alt="Major's Photo">
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="info-details">
+                <h1>Me as a child🤩</h1>
+                <img class="single-image" src="resources/babymajor1.jpg" alt="babymajor1" />
+                <img class="single-image" src="resources/babymajor2.jpg" alt="babymajor2" />
+                <h1>cooking🤤</h1>
+                <img class="single-image" src="resources/majorcooking.jpg" alt="majorcooking" />
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="info-details">
+                <h1>Introduce my self</h1>
+                <div class="video-container">
+                    <video width="500" height="300" controls>
+                        <source src="resources/major-hii.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
         <h1>Contact</h1>
-        <div class="contact-links">
-            <a href="mailto:kitibodin.hen@dome.tu.ac.th">Email: kitibodin.hen@dome.tu.ac.th</a>
-            <a href="https://www.instagram.com/majorkittt?igsh=MXhneGZ0aXU5emFwdw%3D%3D&utm_source=qr">Instagram: majorkittt</a>
+        <div class="contact-info">
+            <a href="mailto:kitibodin.hen@dome.tu.ac.th">✉️ kitibodin.hen@dome.tu.ac.th</a>
+            <a href="https://www.instagram.com/majorkittt?igsh=MXhneGZ0aXU5emFwdw%3D%3D&utm_source=qr">IG :
+                majorkittt</a>
         </div>
-        
-    </div>
-    <a " href="myjourney.html">Next </style></a>
+    </footer>
+
 </body>
+
+</html>
